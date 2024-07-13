@@ -1,0 +1,58 @@
+<!-- Trnsition timing function : 2 
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSS Transition Timing Function</title>
+     <style>
+         .box {
+             width: 100px;
+             height: 100px;
+             background-color: rgb(255, 220, 193);
+             margin: 50px;
+             transition: transform 2s;
+         }
+ 
+         .linear {
+            transition-timing-function: linear; 
+        }
+
+         .ease {
+             transition-timing-function: ease; 
+        }
+
+         .ease-in { 
+            transition-timing-function: ease-in;
+        
+        }
+
+         .ease-out { 
+            transition-timing-function: ease-out;
+         }
+         
+         .ease-in-out {
+             transition-timing-function: ease-in-out; 
+        }
+
+         .steps { 
+            transition-timing-function: steps(5, end);
+         }
+ 
+         .box:hover {
+             transform: translateX(200px);
+         }
+     </style>
+ </head>
+ <body>
+     <div class="box linear">Linear</div>
+     <div class="box ease">Ease</div>
+     <div class="box ease-in">Ease-In</div>
+     <div class="box ease-out">Ease-Out</div>
+     <div class="box ease-in-out">Ease-In-Out</div>
+     <div class="box steps">Steps</div>
+ </body>
+ </html>
+ 

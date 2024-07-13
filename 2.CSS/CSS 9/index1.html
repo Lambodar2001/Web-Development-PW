@@ -1,0 +1,50 @@
+<!-- psuedo class selector 
+ 
+first and n th child
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Class Selectors Example</title>
+    <style>
+        /* First child selector */
+        .container p:first-child {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Nth child selector - every even paragraph */
+        .container p:nth-child(even) {
+            background-color: lightblue;
+        }
+
+        /* Nth child selector - every third list item */
+        .list li:nth-child(3n) {
+            color: green;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Class Selectors Example</h1>
+
+    <div class="container">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+
+    <ul class="list">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!-- Pseudo elemets   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pseudo-elements Example</title>
+<style>
+  /* Styling the ::first-line pseudo-element */
+  p::first-line {
+    font-weight: bold;
+    color: blue;
+  }
+
+  /* Styling the ::first-letter pseudo-element */
+  p::first-letter {
+    font-size: 150%;
+    color: red;
+  }
+
+  /* Adding content after the paragraph */
+  p::after {
+    content: " - More info here!";
+    font-style: italic;
+    color: cadetblue;
+  }
+
+  /* Adding content before the paragraph */
+  p::before {
+    content: "🌟 ";
+  }
+
+  /* Styling list markers */
+  ul::marker {
+    color: rgb(42, 237, 42);
+    font-weight: bold;
+  }
+
+  /* Styling selected text */
+  ::selection {
+    background-color: yellow;
+    color: black;
+  }
+</style>
+</head>
+<body>
+
+  <p>This is a sample paragraph. It demonstrates the use of pseudo-elements in CSS.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, odio Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem eaque laudantium blanditiis architecto quaerat, sed reiciendis voluptate porro debitis laborum dolor rem corrupti sequi deserunt iste sit veniam, assumenda provident enim harum est ducimus nisi optio ipsa? Architecto voluptas veniam blanditiis perspiciatis. Qui ea ipsa, nisi iusto eligendi fugit autem odio voluptatibus error magni ipsum velit quaerat corrupti earum doloremque culpa explicabo atque. Obcaecati voluptatibus autem id iste cum magnam, beatae accusamus ab tenetur porro vero quod ducimus neque? Vel, reprehenderit dignissimos! Possimus eum sequi cum !
+  </p>
+  
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+</body>
+</html>

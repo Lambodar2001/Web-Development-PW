@@ -1,0 +1,81 @@
+h1{
+
+    color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: cadetblue;
+}
+            
+
+
+            .container4{
+
+                border: 2px solid red;
+
+                margin: 10px 20px 30px 40px;
+                padding: 10px 20px 30px 40px;
+                
+               text-align: center;
+
+                
+            }
+
+            .container{
+
+                border: 2px solid red;
+
+                
+                margin-left: 30%;
+                margin-right: 30%;
+
+                margin-top: 0px;
+
+
+
+               
+            }
+
+            .container1{
+
+                border: 2px solid red;
+                
+                margin-left: 20%;
+                margin-right: 20%;
+
+
+                
+               
+            }
+
+            .container2{
+
+                border: 2px solid red;
+
+                margin-left: 10%;
+                margin-right: 10%;
+
+
+
+                
+               
+            }
+
+
+            .container3{
+
+                border: 2px solid red;
+
+
+                
+               
+            }
+
+
+
+    /* border: 2px solid red;
+    margin: 10px 100px 10px 20px;
+    padding: 20px; */
+
+

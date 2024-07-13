@@ -1,0 +1,47 @@
+/* Simple Selector */
+
+
+/* 1. Universal Selector */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* 2.Element Selector */
+
+h1{
+    color: bisque;
+}
+
+
+/* 3.class selector */
+
+.para{
+
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cadetblue;
+}
+
+.class2{
+
+    color: brown;
+}
+
+/* 4.Id selector */
+
+#id1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 5.Selector list */
+
+
+.class3 , .class4 , #id2 {
+
+    color:blueviolet
+}

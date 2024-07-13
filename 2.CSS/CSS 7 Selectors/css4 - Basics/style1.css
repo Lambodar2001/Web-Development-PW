@@ -1,0 +1,15 @@
+.div1{
+    border: 2px solid red;
+    background-color: #8080805a;
+    margin: 20px 1200px 0px 2px;
+}
+
+.div2{
+    border: 2px solid rgba(0, 140, 255, 0.74);
+    background-color: #d8f8c65a;
+
+    padding-left: 200px;
+    padding-top: 200px;
+    
+}
+

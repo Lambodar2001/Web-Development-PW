@@ -1,0 +1,28 @@
+<!-- transition-timing-function
+ 
+biezer curve 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cubic-bezier Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 50px;
+            transition: transform 2s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+        .box:hover {
+            transform: translateX(200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Custom</div>
+</body>
+</html>

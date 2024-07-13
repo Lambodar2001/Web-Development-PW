@@ -1,0 +1,19 @@
+body {
+    background-color: #808080;
+    background-image: url(img/screen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+p{
+    font-size: large;
+}
+
+
+div {
+    background-color: #808080;
+    background-image: url(img/screen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

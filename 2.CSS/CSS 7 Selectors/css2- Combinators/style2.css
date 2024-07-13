@@ -1,0 +1,5 @@
+
+/* Child Combinator */
+div > p {
+    color: green; /* Applies only to the first <p> */
+}

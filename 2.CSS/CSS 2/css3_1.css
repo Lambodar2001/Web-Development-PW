@@ -1,0 +1,16 @@
+
+
+ /* 1. Decendant selector  */
+
+
+            body{
+
+                background-color: #808080;
+            }
+
+            main h1 {
+
+                text-align: center;
+            }
+
+

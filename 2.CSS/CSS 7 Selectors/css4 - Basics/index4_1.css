@@ -1,0 +1,25 @@
+
+
+body{
+
+    background-color: #dcecfd;
+   
+}
+
+div{
+
+    height: 300px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: #faf6f6;
+    background-position: center center;
+    background-image: url(./coding.jpg);
+    background-size: cover;
+    color: crimson;
+    overflow: scroll;
+    background-attachment: local;
+    
+}
+
+

@@ -1,0 +1,33 @@
+
+body{
+
+    background-color: #080808;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.class1{
+
+    color: red;
+
+}
+
+
+.class2{
+
+    text-align: center;
+}
+
+/* Selectors List */
+
+
+.class1 , .class2 {
+
+    font-family: fantasy;
+}

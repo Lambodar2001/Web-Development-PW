@@ -1,0 +1,18 @@
+body{
+
+    background-color: #808080;
+}
+
+h1 {
+
+    color: #ffffff;
+    text-align: center;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+span{
+    color: chocolate;
+}

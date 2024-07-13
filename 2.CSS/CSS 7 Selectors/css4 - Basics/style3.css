@@ -1,0 +1,12 @@
+body{
+
+    
+    background-image:
+            url(./lambs.png),
+            url(./coding.jpg) ; 
+            
+    background-repeat: no-repeat, no-repeat;
+    background-size:auto, cover;
+    background-position: 1000px 180px , 0px  0px;
+
+}

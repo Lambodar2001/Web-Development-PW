@@ -1,0 +1,15 @@
+.width{
+
+    max-width: 150px;
+    border: 2px solid red;
+
+
+    
+
+}
+
+p:hover{
+
+    color: brown;
+    font-size: larger;
+}

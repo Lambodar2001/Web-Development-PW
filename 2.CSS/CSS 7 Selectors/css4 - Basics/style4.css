@@ -1,0 +1,11 @@
+div{
+
+    height: 100% ;
+    width: 100%;
+    background-color: rgb(255, 225, 225);
+    background-image: url(./coding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}

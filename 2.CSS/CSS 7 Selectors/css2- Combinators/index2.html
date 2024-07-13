@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators - Child Selector </title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        div > p {
+            color: green; /* Applies only to the direct <p> child */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This paragraph should be green (direct child of <div>).</p>
+        <div>
+            <p>This paragraph should not be green (nested inside another <div>).</p>
+        </div>
+    </div>
+</body>
+</html>

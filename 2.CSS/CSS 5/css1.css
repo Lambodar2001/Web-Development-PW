@@ -1,0 +1,55 @@
+
+/* 1.Simple selectors */
+
+/* 1.Universal selectors */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+
+
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+/* 2.Element selectors */
+
+h1{
+    color: rgb(250, 4, 4);
+}
+
+/* 3.Class selectors */
+
+
+.pcolor{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 4.ID selectors */
+
+#id1{
+
+    border: 2px solid red;
+}
+
+
+/* 4.selectors list */
+
+.class1{
+    color: brown;
+}
+
+
+.class2{
+    color: rgb(255, 0, 8);
+}
+
+.class1 , .class2{
+
+    text-align: center;
+}

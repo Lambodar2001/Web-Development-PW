@@ -1,0 +1,87 @@
+<!-- psuedo class selector 
+ 
+Hover 
+focus
+link
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .hover:hover{
+
+            background-color: #bdccff;
+            color: blue;
+            cursor: pointer;
+        }
+
+        input:focus {
+            border-color: blue;
+            background-color: hsl(240, 100%, 93%);
+        }
+
+        /* styles.css */
+
+        /* Unvisited link */
+        a:link {
+            color: blue;
+            text-decoration: none;
+            
+        }
+
+        /* Visited link */
+        a:visited {
+            color: purple;
+            text-decoration: none;
+        }
+
+        /* Active link */
+        a:active {
+            color: red;
+            text-decoration: underline;
+        }
+
+        /* General link styling */
+        a {
+            font-size: 18px;
+            margin: 5px 0;
+            display: inline-block;
+        }
+
+        
+    </style>
+
+
+</head>
+<body>
+
+    this is for hover
+    <p class="hover">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis porro eius libero, nihil, consequatur similique ipsum necessitatibus ab accusamus earum corrupti laboriosam numquam, aut vel repellat delectus vero nobis veritatis?
+    </p>
+
+
+    <hr>
+
+    this is for focus 
+    <input type="text">
+
+    <hr>
+    
+    this is for link 
+    <nav>
+        <ul>
+            <li><a href="https://www.example.com/page1" target="_blank">Page 1</a></li>
+            <li><a href="https://www.example.com/page2" target="_blank">Page 2</a></li>
+            <li><a href="https://www.example.com/page3" target="_blank">Page 3</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

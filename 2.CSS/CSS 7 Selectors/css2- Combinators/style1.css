@@ -1,0 +1,24 @@
+body{
+    background-color: #808080;
+}
+
+
+
+/* Combinator- decendant selectors */
+
+div ol li p{
+    color: beige;
+}
+
+
+div p {
+    color:blanchedalmond
+}
+
+
+/* Combinator- Child selectors */
+
+
+
+
+
