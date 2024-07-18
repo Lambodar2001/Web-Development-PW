@@ -1,0 +1,68 @@
+<!-- CSS ANIMATION 
+ 
+2.percentage keyfram
+and other properties:
+
+ =========>animation-iteration-count: 1;
+ =========>animation-direction:alternate;
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Path Animation</title>
+    <style>
+        .divprop {
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: #f16969;
+            position: absolute;
+            animation-name: squarePath;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-direction:alternate;
+        }
+
+        @keyframes squarePath {
+            0% {
+                top: 0;
+                left: 0;
+            }
+            25% {
+                top: 0;
+                left: 150px;
+            }
+            50% {
+                top: 150px;
+                left: 150px;
+            }
+            75% {
+                top: 150px;
+                left: 0;
+            }
+            100% {
+                top: 0;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="divprop">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

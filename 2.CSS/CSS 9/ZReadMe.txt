@@ -4,5 +4,4 @@ Module 20
 •	Gradients - index3
 •	Transitions- index4 
 •	tooltip  - index5
-
-•	Animation
+•	Animation - index6

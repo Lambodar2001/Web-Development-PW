@@ -1,4 +1,6 @@
-<!-- CSS ANIMATION  -->
+<!-- CSS ANIMATION 
+ 
+1. basics animatiiona and properties-->
 
 
 <!DOCTYPE html>
@@ -6,103 +8,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Animation Project</title>
+    <title>Document</title>
+
     <style>
-        /* Animation */
-        .animated-box {
-            width: 100px;
+
+        div{
+
+            width:  100px ;
             height: 100px;
-            background-color: blue;
-            margin: 50px auto;
-            animation: move 5s ease-in-out infinite;
+            background-color: #d58282;
+
+            animation-name: colorchange;
+            animation-duration: 10s;
+            animation-delay: 2s;
+
+            position: relative;
         }
 
-        /* @keyframes Rules */
-        @keyframes move {
-            0% { transform: translateX(0); }
-            50% { transform: translateX(200px); }
-            100% { transform: translateX(0); }
+        @keyframes colorchange{
+
+            from{
+                
+                background-color: #d5c782;
+                top:0px;
+                left:0px;
+            
+            }
+
+            to{
+                background-color: #ff0000;
+                top:0px;
+                left:100px;
+            
+            }
         }
 
-        /* Delaying an Animation */
-        .delayed-box {
-            animation: changeColor 5s ease-in-out 1s infinite;
-        }
 
-        @keyframes changeColor {
-            0% { background-color: red; }
-            50% { background-color: yellow; }
-            100% { background-color: red; }
-        }
-
-        /* Setting how many times an animation can run */
-        .limited-box {
-            animation: scaleUp 3s ease-in-out 2;
-        }
-
-        @keyframes scaleUp {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.5); }
-            100% { transform: scale(1); }
-        }
-
-        /* Run Animation in Reverse Direction or Alternate Cycles */
-        .reverse-box {
-            animation: rotate 4s linear infinite alternate;
-        }
-
-        @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Specify the speed Curve of the Animation */
-        .speed-box {
-            animation: slide 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
-        }
-
-        @keyframes slide {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(200px); }
-        }
-
-        /* Specify the fill-mode For an Animation */
-        .fill-box {
-            animation: grow 3s forwards;
-        }
-
-        @keyframes grow {
-            0% { height: 100px; }
-            100% { height: 300px; }
-        }
-
-        /* Animation Shorthand Property */
-        .shorthand-box {
-            animation: spin 2s linear 1s 3 reverse both;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
 <body>
-    <h2>CSS Animation Examples</h2>
+    
+    <div>
 
-    <div class="animated-box">Animation</div>
-
-    <div class="animated-box delayed-box">Delayed Animation</div>
-
-    <div class="animated-box limited-box">Limited Animation</div>
-
-    <div class="animated-box reverse-box">Reverse Animation</div>
-
-    <div class="animated-box speed-box">Speed Curve</div>
-
-    <div class="animated-box fill-box">Fill Mode</div>
-
-    <div class="animated-box shorthand-box">Shorthand Property</div>
+    </div>
 
 </body>
 </html>

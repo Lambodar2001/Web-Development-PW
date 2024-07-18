@@ -1,0 +1,153 @@
+<!-- CSS ANIMATION 
+ 
+2.percentage keyfram
+and other properties:
+
+=====> Specify the Fill Mode for an Animation
+
+
+Specify the Fill Mode for an Animation
+In CSS animations, elements usually don't have any styles before the animation starts or after it ends. The animation-fill-mode property changes this behavior.
+
+none: This is the default. It means the animation doesn't change any styles before or after it plays.
+forwards: After the animation ends, the element keeps the styles from the last keyframe.
+backwards: Before the animation starts, the element gets the styles from the first keyframe and keeps them until the animation begins.
+both: The animation applies styles both before it starts (like backwards) and after it ends (like forwards).
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Square Path Animation</title>
+<style>
+    .divprop {
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .box1{
+        width: 50px;
+        height: 50px;
+        background-color: #f16969;
+        position: absolute;
+        animation-name: squarePath;
+        animation-duration: 5s;
+        animation-fill-mode: none;
+    }
+
+    .box2 {
+        width: 50px;
+        height: 50px;
+        background-color: #f16969;
+        position: absolute;
+        animation-name: squarePath;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    .box3 {
+        width: 50px;
+        height: 50px;
+        background-color: #f16969;
+        position: absolute;
+        animation-name: squarePath;
+        animation-duration: 5s;
+        animation-fill-mode:both;
+    }
+
+    .box4 {
+        width: 50px;
+        height: 50px;
+        background-color: #f16969;
+        position: absolute;
+        animation-name: squarePath;
+        animation-duration: 5s;
+        animation-fill-mode:backwards;
+    }
+
+
+    @keyframes squarePath {
+        0% {
+            top: 0;
+            left: 0;
+            background-color: aquamarine;
+        }
+        25% {
+            top: 0;
+            left: 150px;
+            background-color: beige;
+        }
+        50% {
+            top: 150px;
+            left: 150px;
+            background-color: brown;
+        }
+        75% {
+            top: 150px;
+            left: 0;
+            background-color: rgb(255, 140, 0);
+        }
+        100% {
+            top: 0;
+            left: 0;
+            background-color: rgb(178, 127, 255);
+        }
+    }
+</style>
+</head>
+<body>
+
+    <!-- none -->
+    <div class="divprop " >
+        <div class="box1"></div>
+    </div>
+    <p>This is animation-fill-mode: none</p>
+
+
+
+    <hr>
+
+
+
+    <!-- forwards -->
+    <div class="divprop" >
+        <div class="box2"></div>
+    </div>
+    <p>This is animation-fill-mode: forwards</p>
+
+
+
+    <hr>
+
+
+
+    <!-- backwards -->
+    <div class="divprop">
+        <div class="box3"></div>
+    </div>
+    <p>This is animation-fill-mode: backwards</p>
+
+
+
+    <hr>
+
+
+    
+
+    <!-- both -->
+    <div class="divprop" >
+        <div class="box4"></div>
+    </div>
+    <p>This is animation-fill-mode: both</p>
+
+</body>
+</html>
