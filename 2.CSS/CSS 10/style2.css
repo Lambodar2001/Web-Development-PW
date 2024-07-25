@@ -1,0 +1,127 @@
+body{
+    background-color: #979797;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575.98px){
+
+
+    body{
+        
+        background-color: #ffca67;
+
+    }
+
+    div::after{
+        content: "Extra Small Devices (phones, less than 576px) " ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px){
+
+
+    body{
+        
+        background-color: #87fa3a;
+
+    }
+
+    div::after{
+        content: "Small Devices (tablets, 576px and up)  " ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+
+    body{
+        
+        background-color: #6797ff;
+
+    }
+
+    div::after{
+        content: "Medium Devices (desktops, 768px and up)  " ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px){
+
+
+    body{
+        
+        background-color: #ff9fe5;
+
+    }
+
+    div::after{
+        content: "Large Devices (large desktops, 992px and up)  " ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    
+
+    body{
+        
+        background-color: #ff7373;
+
+    }
+
+    div::after{
+        content: "Extra Large Devices (extra-large desktops, 1200px and up)  " ;
+    }
+   
+}

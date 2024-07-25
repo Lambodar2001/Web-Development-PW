@@ -1,0 +1,78 @@
+<!-- Basics of media Queries  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: #ff0000;
+        }
+
+        div{
+
+            font-size:xx-large;
+            text-align: center;
+        }
+
+        div::after{
+            content: "Alert this is less 900px";
+        }
+        
+
+        @media (min-width: 400px) and (max-width: 767px) {
+            body {
+                background-color: #000000;
+            }
+        
+            div::after {
+                content: "This is between 400px and 767px";
+            }
+        }
+        
+
+
+
+        @media (min-width:768px) { 
+
+            
+            body{
+                background-color:chocolate;
+            }
+
+            div::after{
+                content: "This greater than 768px ";
+            }
+            
+        }
+
+        @media (min-width:900px) { 
+
+            
+            body{
+                background-color: #00ffc8;
+            }
+
+            div::after{
+                content: "This greater than 900px ";
+            }
+            
+        }
+
+
+     
+
+    </style>
+</head>
+<body>
+    
+    <div>
+
+
+    </div>
+</body>
+</html>
