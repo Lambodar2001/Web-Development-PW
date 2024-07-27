@@ -1,7 +1,21 @@
 CSS- Mobile Responsive 
 
 
-1. Basics of media Queries - index1
-2. Standard screen Sizes - index 2
+1. Basics of media Queries -                      index1
+2. Standard screen Sizes -                        index2
+3. Types of layout:
+                1. Normal Flow
+                2. Float                ---index3
+                3. Position
+                    1.static            ---index4
+                    2.fixed             ---index4
+                    3.sticky            ---index5
+                    4.Relative          ---index6
+                    5.Absolute          ---index6
+                      Z-index           ---index7
+
+                4. Flex                           index8               
+                5. Grid
+
 
  
